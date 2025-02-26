@@ -1,50 +1,77 @@
-# React + TypeScript + Vite
+# 📌 Ignite Feed
+![Badge de Status](https://img.shields.io/badge/Status-Concluído-brightgreen)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+## 📖 Descrição
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O Ignite Feed é um projeto desenvolvido para reforçar o aprendizado em TypeScript, JavaScript, HTML, CSS e React. O objetivo principal foi aprofundar os conceitos básicos dessas tecnologias, além de aprimorar minha didática para compartilhar conhecimento.
+Além disso, o projeto envolveu a conversão de um código originalmente escrito em JSX para TSX, adicionando tipagem ao código.
+O foco principal do projeto foi reforçar conceitos essenciais e boas práticas no desenvolvimento com React e TypeScript.
 
-## Expanding the ESLint configuration
+## 🚀 Tecnologias Utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- [TypeScript](https://www.typescriptlang.org/)
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [React](https://react.dev/)
+- [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- VIte, CSS Modules
 
-- Configure the top-level `parserOptions` property like this:
+## 📸 Demonstração
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+![Image](https://github.com/user-attachments/assets/1b8a8c4c-2410-480a-a589-4fce3d60403b)
+
+## ⚙️ Funcionalidades
+
+✔️ Feed de uma rede social  
+✔️ Adicionar, excluir e aplaudir comentários  
+✔️ Estruturado apenas com conceitos de Front-end, sem integração com back-end ou banco de dados, focando nos fundamentos do React  
+
+## 📂 Estrutura do Projeto
+
+```
+📦 Ignite-Feed
+ ┣ 📂 src
+ ┃ ┣ 📜 App.tsx
+ ┃ ┗ 📜 ...
+ ┣ 📜 README.md
+ ┗ 📜 package.json
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## 🎯 Como Usar
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+```bash
+# Clone este repositório
+$ git clone https://github.com/Gustavo64522/Ignite-Feed.git
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+# Entre no diretório
+$ cd Ignite-Feed
+
+# Instale as dependências
+$ npm install  # ou yarn install
+
+# Execute o projeto
+$ npm start  # ou yarn start
 ```
+
+## 🛠 Melhorias Futuras
+
+- [ ] Integrar o Projeto com o back-end
+- [ ] Criar pãgina do perfil
+
+## 📌 Contribuição
+
+Sinta-se à vontade para contribuir! Basta seguir os passos:
+1. Faça um Fork do projeto
+2. Crie uma branch (`git checkout -b minha-feature`)
+3. Faça commit das mudanças (`git commit -m 'Adiciona nova feature'`)
+4. Faça um push para a branch (`git push origin minha-feature`)
+5. Abra um Pull Request
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+Feito  por [Gustavo Andrade](https://github.com/gustavo64522)
