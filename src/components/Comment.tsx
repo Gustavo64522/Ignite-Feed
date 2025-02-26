@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import { ThumbsUp, Trash } from "phosphor-react";
 import styles from "./Comment.module.css";
 import { Avatar } from "./Avatar";

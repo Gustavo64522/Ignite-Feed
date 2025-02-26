@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import { format, formatDistanceToNow } from "date-fns";
 import { ptBR } from "date-fns/locale/pt-BR";
 
@@ -30,7 +29,7 @@ interface PostProps {
 }
 
 export function Post({ post }: PostProps) {
-  const [comments, setComments] = useState(["Post Legal"]);
+  const [comments, setComments] = useState(["Muito bom, parabéns!! 👏👏"]);
 
   const [newCommentText, setNewCommentText] = useState<string>("");
 

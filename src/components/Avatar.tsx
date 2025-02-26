@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import styles from "./Avatar.module.css";
 import { ImgHTMLAttributes } from "react";
 

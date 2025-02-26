@@ -6,11 +6,6 @@ import styles from "./App.module.css";
 
 import "./global.css";
 
-// Dados dinamicos
-// author: { avatar_url: "", name: "", role: "" }
-// publishedAt: Date
-// content: String
-
 const posts: PostType[] = [
   {
     id: 1,
